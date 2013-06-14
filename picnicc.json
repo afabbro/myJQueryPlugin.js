@@ -1,5 +1,5 @@
 {
-	"version" : "0.0.1",
+	"version" : "0.0.2",
 	"assets"  : ["https://raw.github.com/picnicc/myJQueryPlugin.js/gh-pages/myJQueryPlugin.js"],
 	"bits"    : ["someFunction", "someOtherFunction"]
 }

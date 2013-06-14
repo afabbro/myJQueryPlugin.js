@@ -12,6 +12,7 @@
 		someOtherFunction: function() {
 			console.log("someOtherFunction");
 		}
+		/* { / picnicc } */
 	};
 
 	$.fn.myJqueryPlugin = function(method) {
