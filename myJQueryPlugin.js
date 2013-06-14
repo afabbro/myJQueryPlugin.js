@@ -8,7 +8,7 @@
 		},
 		/* { / picnicc } */
 
-		/* { picnicc: someFunction } */
+		/* { picnicc: someOtherFunction } */
 		someOtherFunction: function() {
 			console.log("someOtherFunction");
 		}
