@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>picnicc - form sent directly to the API</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A simple picnicc example">
+        <meta name="author" content="Alex Duloz - http://bitspushedaround.com">
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>
+            myJQueryPlugin.css
+        </h1>
+
+        <p>
+            A simple example of how you can customize a jQuery Plugin.
+        </p>
+
+        <form name="picnicc" action="https://picni.cc/api/v1/build/" method="post">
+
+                <!-- Things to edit -->
+                <input type="hidden" name="username" value="picnicc">
+                <input type="hidden" name="project" value="myJQueryPlugin.js">
+                <input type="hidden" name="picnicc" value="https://raw.github.com/picnicc/myJQueryPlugin.js/gh-pages/picnicc.json">
+                <!-- / Things to edit -->
+
+                <input type="hidden" name="if_success" value="302">
+                <input type="hidden" name="if_error" value="_picnicc">
+  
+
+                <h2>Pick what you need</h2>
+                
+                <label>
+                    <input type="checkbox" name="bits[]" value="someFunction">
+                    someFunction
+                </label>
+                <label>
+                    <input type="checkbox" name="bits[]" value="someOtherFunction">
+                    Add <code>someOtherFunction</code> to your build
+                </label>
+                <label>
+                    <input type="checkbox" name="minify" value="js">
+                    minify
+                </label>
+
+                <button>Build it!</button>
+
+            </form>
+    </body>
+</html>
